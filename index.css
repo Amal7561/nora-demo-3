@@ -887,15 +887,15 @@ footer {
 }
 
 .team-content{
-  height: 0;
-width: 95%;
+  height: 85px;
+  width: 93%;
   position: absolute;
   text-align: center;
   overflow: hidden;
   bottom: 0;
   transition: all 0.4s;
   z-index: 5;
-  color:#fff;
+  color: var(--secondary-clr);
   font-size: 14px;
   font-weight: 500;
 }
@@ -915,6 +915,10 @@ width: 95%;
 }
 
 .team-info{
-  padding: 5px 20px 5px 20px;
   transition: all .5s;
+background: rgba(0, 0, 0, 0.50);
+}
+
+.team-info h3{
+  margin-bottom: 0;
 }
