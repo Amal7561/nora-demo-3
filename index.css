@@ -10,9 +10,22 @@
   --secondary-clr: #fafbff;
 }
 
+.border-right{
+  border-right: 1px solid white!important;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.p-foot-6{
+  padding-top: 90px!important;
+}
+
+
+.p-testi-4{
+  padding-top: 20px;
 }
 
 .pt-6 {
@@ -106,19 +119,11 @@ header .nav .navigation li {
 header .nav .navigation li a {
   text-decoration: none;
   color: black;
-  padding: 8px 10px;  
-  border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 
-header .nav .navigation li a.active{
-  color: white;
-  background: var(--primary-clr);
-}
-
 header .nav .navigation li a:hover {
-  color: white;
-  background: var(--primary-clr);
+  color: var(--primary-clr);
 }
 
 header .nav .btn-user {
@@ -272,8 +277,9 @@ header .nav .btn-user:hover {
   padding-left: 1.5rem;
 }
 
+
 #carouselTestimonial {
-  min-height: 330px;
+  min-height: 290px;
 }
 
 .solutionsSize {
@@ -436,6 +442,20 @@ footer {
 
 .footer ul li a i {
   font-size: 1rem;
+}
+
+footer .footer-b a{
+  color: #fff!important;
+}
+
+footer .social-ic ul li a{
+  border-radius: 50%;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: .5rem;
+  display: initial;
+  transition: all .2s linear;
 }
 
 /*************************************************************/
@@ -633,6 +653,15 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .p-testi-4{
+    padding: 0;
+  }
+
+  .p-foot-6{
+    padding-top: 0px!important;
+    padding-bottom: 20px!important;
+  }
+
   .banner {
     min-height: 600px !important;
   }
